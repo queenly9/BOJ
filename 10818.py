@@ -1,0 +1,5 @@
+case = int(input())
+lst = list(map(int, input().split()))
+m = max(lst)
+n = min(lst)
+print(n, m)
